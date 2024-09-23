@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, i = 1, p;
+
+    cout << "The table of the number you want is: ";
+    cin >> n;
+
+    while (i <= 10) {
+        p = i * n;
+        cout << n << " x " << i << " = " << p << endl;
+        i++;
+    }
+
+    return 0;
+}
